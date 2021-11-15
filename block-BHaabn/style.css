@@ -92,7 +92,10 @@ nav a {
 .col1 {
     width: 30%;
     padding: 10px 0;
+    flex: 0 1 30%;
 }
-.footer a {
-    align-items: flex-end;
+.footer {
+    background-color: rgb(34,41,70);
+    color: white;
+    padding: 20px 0;
 }
