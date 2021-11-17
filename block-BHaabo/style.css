@@ -64,35 +64,56 @@ table {
 	 padding: 16px 0;
 	 margin-bottom: 30px;
  }
- .brand img{
+ .brand img {
   width: 150px;
   height: 80px;
- 
  }
 .flex {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;	
 }
-
-/* section */
-/* block1 */
-
-.flex1 {
-	display: flex;
-	padding: 10px 20px;
+.nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
 }
-.block1 {
-	max-width: 500px;
-	height: 530px;
-	margin: 0 20px;
+.nav a img {
+	vertical-align: middle;
+}
+
+/* block1 */
+.side {
 	background-color: rgb(163,202,234);
-	padding: 30px 30px;
+	padding: 32px;
+	flex: 0 1 30%;
+	align-self: stretch;
 	border: none;
 	border-radius: 5px;
 }
-.margin img{
+.col1 {
+	display: flex;
+	flex-direction: column;	
+
+}
+.col1 a {
+	text-decoration: none;
+	color: rgb(34,41,70);
+	font-size: 600;
+	padding: 20px;
+
+}
+.col1 a img {
+	vertical-align: middle;
 	margin-right: 20px;
+}
+.article {
+	width: 100%;
+	border: 1px solid rgb(237,121,41);
+}
+.col1 .article {
+
+	color: rgb(237,121,41);
 }
 .log-out {
 	margin-top: 200px;
@@ -103,14 +124,27 @@ table {
 	background-color: white;
 	text-align: center;
 }
-.para {
-	margin-left: 20px;
+.btn {
+	width: 100%;
+	padding: 15px 30px;
+	background-color: white;
+	color: rgb(34,41,70);
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: left;
+	margin-top: 130px;
+}
+.btn img {
+	margin-right: 20px;
+	vertical-align: middle;
 }
 
 /* block2 */
-.block2 {
-	max-width: 800px;
-	height: 530px;
+.article1 {
+	flex: 0 1 60%;
+	padding: 10px 5px;
+	background-color: whitesmoke;
 }
 .blockimg img {
 	width: 800px;
@@ -120,6 +154,14 @@ h1 {
 	font-size: 24px;
 	font-weight: 400;
 }
+.readbtn {
+	background-color: rgb(83,182,103);
+	color: white;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 3px;
+}
+
 /* footer */
 footer {
 	background-color: rgb(34,41,70);
@@ -128,13 +170,4 @@ footer {
 	font-size: 32px;
 	margin-top: 40px;
 }
-button {
-	background-color: rgb(83,182,103);
-	color: white;
-	padding: 10px 10px;
-	border: none;
-	border-radius: 3px;
-}
-.tmk {
-	background-color: rgb(242,248,253);
-}
+
